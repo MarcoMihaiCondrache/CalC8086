@@ -1,0 +1,38 @@
+; Bytes and Consts
+; Author: Marco Mihai Condrache
+; Date: 12/04/2020
+; Description: Data required by the program
+; Github: https://github.com/MarcoMihaiCondrache
+; LICENSE: GPL-3.0
+CURRENT_PAGE DB 0
+TEN DW 10
+DIGIT_COUNT DB 3
+OPERATOR DB 0
+NUM1 DW 0
+NUM2 DW 0
+NUM1_USED DB 0
+NUM2_USED DB 0
+ANS DW 0
+REMAINDER DW 0
+LAST_OPERATION_STATUS DB 0
+
+PLUS = 43
+MINUS = 45
+MULTIPLICATION = 158
+DIVISION = 246
+DELETE_ALL DB 'AC', '$'
+OFF DB 'O', 'F', 'F', '$'
+DIVISION_ZERO DB 'Error$'
+DIVISION_REMAINDER DB 'R:$'
+OVERFLOW DB 'Overflow$'
+COPYRIGHT DB 'Condrache Marco Mihai ', 184, ' 2020 ', 196, ' 1.0.0', '$'
+
+X_OFFSET = 10
+Y_OFFSET = 2
+
+DRAW_CHAR_X = 205
+DRAW_CHAR_Y = 186
+DRAW_CHAR_TL = 201
+DRAW_CHAR_TR = 187
+DRAW_CHAR_BL = 200
+DRAW_CHAR_BR = 188
